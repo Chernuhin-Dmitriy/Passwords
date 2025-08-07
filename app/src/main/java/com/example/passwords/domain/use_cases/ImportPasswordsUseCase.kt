@@ -4,8 +4,9 @@ import com.example.passwords.domain.repository.FolderRepository
 import com.example.passwords.domain.repository.PasswordRepository
 import com.example.passwords.domain.entity.Folder
 import com.example.passwords.domain.entity.Password
+import javax.inject.Inject
 
-class ImportPasswordsUseCase(
+class ImportPasswordsUseCase @Inject constructor(
     private val passwordRepository: PasswordRepository,
     private val folderRepository: FolderRepository
 ) {

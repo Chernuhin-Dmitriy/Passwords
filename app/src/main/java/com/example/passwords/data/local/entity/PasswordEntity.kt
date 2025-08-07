@@ -3,6 +3,7 @@ package com.example.passwords.data.local.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.ForeignKey
+import androidx.room.Index
 
 @Entity(
     tableName = "passwords",
@@ -13,7 +14,8 @@ import androidx.room.ForeignKey
             childColumns = ["folderId"],
             onDelete = ForeignKey.CASCADE
         )
-    ]
+    ],
+    indices = [Index(value = ["folderId"])]
 )
 data class PasswordEntity(
     @PrimaryKey(autoGenerate = true)

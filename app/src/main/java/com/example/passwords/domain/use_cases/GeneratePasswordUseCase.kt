@@ -1,6 +1,8 @@
 package com.example.passwords.domain.use_cases
 
 import com.example.passwords.domain.entity.CharacterSetConfig
+import com.example.passwords.domain.repository.PasswordRepository
+import javax.inject.Inject
 import kotlin.math.log2
 import kotlin.math.pow
 import kotlin.random.Random

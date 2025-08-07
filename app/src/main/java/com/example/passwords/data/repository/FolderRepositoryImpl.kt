@@ -5,10 +5,15 @@ import com.example.passwords.data.mapper.toDomain
 import com.example.passwords.data.mapper.toEntity
 import com.example.passwords.domain.entity.Folder
 import com.example.passwords.domain.repository.FolderRepository
+import com.example.passwords.domain.repository.PasswordRepository
+import dagger.Binds
+import dagger.Module
+import dagger.hilt.InstallIn
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 import javax.inject.Singleton
+import dagger.hilt.components.SingletonComponent
 
 @Singleton
 class FolderRepositoryImpl @Inject constructor(

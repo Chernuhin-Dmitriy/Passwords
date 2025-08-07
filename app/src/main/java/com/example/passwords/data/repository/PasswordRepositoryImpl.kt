@@ -4,7 +4,12 @@ import com.example.passwords.data.local.dao.PasswordDao
 import com.example.passwords.data.mapper.toDomain
 import com.example.passwords.data.mapper.toEntity
 import com.example.passwords.domain.entity.Password
+import com.example.passwords.domain.repository.FolderRepository
 import com.example.passwords.domain.repository.PasswordRepository
+import dagger.Binds
+import dagger.Module
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
