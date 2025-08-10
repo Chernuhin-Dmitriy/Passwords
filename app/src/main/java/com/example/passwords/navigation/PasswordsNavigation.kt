@@ -1,4 +1,4 @@
-package com.example.passwords
+package com.example.passwords.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

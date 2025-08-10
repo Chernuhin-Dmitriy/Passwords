@@ -75,11 +75,13 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.material)
-
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling)
     implementation(libs.compose.material3)
     implementation(libs.androidx.compose.material3.pullrefresh)
+//    implementation(libs.androidx.compose.material.icons.core)
+//    implementation(libs.androidx.compose.material.icons.extended)
+//    implementation(libs.androidx.compose.material3)
 
     // Navigation
     implementation(libs.navigation.compose)

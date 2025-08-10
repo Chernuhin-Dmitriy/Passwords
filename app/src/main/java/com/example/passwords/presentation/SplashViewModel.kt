@@ -22,7 +22,6 @@ class SplashViewModel @Inject constructor() : ViewModel() {
 
     private fun initializeApp() {
         viewModelScope.launch {
-            // Simulate initialization process
             delay(2000)
             _isLoading.value = false
         }

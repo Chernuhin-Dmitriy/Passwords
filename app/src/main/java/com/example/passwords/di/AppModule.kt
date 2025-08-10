@@ -1,4 +1,4 @@
-package com.example.passwords
+package com.example.passwords.di
 
 import android.content.ContentResolver
 import android.content.Context

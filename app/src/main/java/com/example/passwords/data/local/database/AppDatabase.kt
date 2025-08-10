@@ -17,23 +17,4 @@ import com.example.passwords.data.local.entity.PasswordEntity
 abstract class AppDatabase : RoomDatabase() {
     abstract fun passwordDao(): PasswordDao
     abstract fun folderDao(): FolderDao
-
-// Убираем companion object, теперь база данных создается через Dagger
-
-//    companion object {
-//        @Volatile
-//        private var INSTANCE: AppDatabase? = null
-//
-//        fun getDatabase(context: Context): AppDatabase {
-//            return INSTANCE ?: synchronized(this) {
-//                val instance = Room.databaseBuilder(
-//                    context.applicationContext,
-//                    AppDatabase::class.java,
-//                    "password_database"
-//                ).build()
-//                INSTANCE = instance
-//                instance
-//            }
-//        }
-//    }
 }

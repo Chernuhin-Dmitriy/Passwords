@@ -1,4 +1,4 @@
-package com.example.passwords
+package com.example.passwords.di
 
 import com.example.passwords.domain.repository.FolderRepository
 import com.example.passwords.domain.repository.PasswordRepository

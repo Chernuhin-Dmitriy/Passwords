@@ -42,7 +42,6 @@ class PasswordListViewModel @Inject constructor(
                 val groupedPasswords = passwords.groupBy { it.folderId }
                 val passwordGroups = mutableListOf<PasswordGroup>()
 
-                // Add generated passwords (without folder)
                 val generatedPasswords = groupedPasswords[null] ?: emptyList()
                 if (generatedPasswords.isNotEmpty()) {
                     passwordGroups.add(
@@ -54,7 +53,6 @@ class PasswordListViewModel @Inject constructor(
                     )
                 }
 
-                // Add folders with passwords
                 folders.forEach { folder ->
                     val folderPasswords = groupedPasswords[folder.id] ?: emptyList()
                     if (folderPasswords.isNotEmpty()) {

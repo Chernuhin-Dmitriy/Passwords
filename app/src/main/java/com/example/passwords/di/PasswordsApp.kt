@@ -1,4 +1,4 @@
-package com.example.passwords
+package com.example.passwords.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
