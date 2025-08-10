@@ -1,9 +1,9 @@
 # Weather Client Android App
 Generate, import, export - it's password toolkit"
 <div align="center">
-<img width="188" height="890" alt="image" src="https://github.com/user-attachments/assets/cb575c26-4392-415e-965c-97fda4e4f78b" />
-<img width="204" height="887" alt="image" src="https://github.com/user-attachments/assets/40a19afb-9612-40a2-aff4-ef6a8f137668" />
-<img width="189" height="889" alt="image" src="https://github.com/user-attachments/assets/4fa2228c-d97d-4c57-bca5-d1c598ba6c86" />
+<img width="208" height="890" alt="image" src="https://github.com/user-attachments/assets/cb575c26-4392-415e-965c-97fda4e4f78b" />
+<img width="226" height="887" alt="image" src="https://github.com/user-attachments/assets/40a19afb-9612-40a2-aff4-ef6a8f137668" />
+<img width="209" height="889" alt="image" src="https://github.com/user-attachments/assets/4fa2228c-d97d-4c57-bca5-d1c598ba6c86" />
 </div>
 
 ## Architecture
