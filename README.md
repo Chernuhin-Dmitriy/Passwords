@@ -1,4 +1,4 @@
-# Weather Client Android App
+# Password Manager Android App
 Generate, import, export - it's password toolkit"
 <div align="center">
 <img width="208" height="890" alt="image" src="https://github.com/user-attachments/assets/cb575c26-4392-415e-965c-97fda4e4f78b" />
@@ -10,7 +10,7 @@ Generate, import, export - it's password toolkit"
 ### The application is built on a Clean Architecture with a division into layers:
 - Presentation Layer - UI components (Jetpack Compose)
 - Domain Layer - business logic, use cases, repositories (interfaces)
-- Data Layer - data sources (API, database), repository implementations
+- Data Layer - data sources (database), repository implementations
 ### Patterns:
 - MVVM - for managing the UI state
 - Repository Pattern - for abstraction of data sources
@@ -25,11 +25,6 @@ UI and Navigation
 - Hilt - dependency injection from Google
 - ViewModel - managing the UI state based on the lifecycle
 - LiveData/StateFlow - reactive programming
-### Network
-- Coil - uploading images (weather icons)
-- Retrofit - HTTP client for REST API
-- OkHttp is a low-level HTTP client
-- Gson - JSON serialization/deserialization
 ### The database
 - Room - ORM for SQLite
 - SQLite - Local database
